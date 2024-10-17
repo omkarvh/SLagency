@@ -204,22 +204,22 @@
         <div class="col-md-6">
 
           
-            <form>
+            <form action="https://formspree.io/f/xkgnnyke" method="POST">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" name="text"  required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email"  name="email" required>
                 </div>
                 <div class="mb-3">
                     <label for="phone" class="form-label">Phone</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                    <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" name="phone" required>
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Description</label>
-                    <textarea class="form-control" id="description" rows="4" placeholder="Your Message" required></textarea>
+                    <textarea class="form-control" id="description" rows="4" placeholder="Your Message" name="message" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Send</button>
             </form>
